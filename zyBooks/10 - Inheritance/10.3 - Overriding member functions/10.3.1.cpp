@@ -36,6 +36,10 @@ public:
    // FIXME: Add PrintAll() member function
 
    /* Your solution goes here  */
+   void PrintAll(){
+      AnimalData::PrintAll();
+      cout << ", ID: " << idNum;
+   }
 
 private:
    int idNum;
